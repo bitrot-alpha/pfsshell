@@ -162,7 +162,7 @@ Create build folder and build object files:
 
 Also build pfsfuse or other features:  
 `meson setup -Denable_<FEATURE> build`  
-Replace <FEATURE> with a feature like pfsfuse - `meson setup -Denable_pfsfuse build`
+Replace `<FEATURE>` with a feature like pfsfuse - `meson setup -Denable_pfsfuse build`
 
 Build executable(s) and so/dll files:  
 ```
