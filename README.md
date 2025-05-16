@@ -157,8 +157,14 @@ The latest Open PS2 Loader revisions have a built-in NBD server. `pfsshell/pfsfu
 This project can be built by using the Meson build system. For more information
 about the system, please visit the following location: <https://mesonbuild.com/>
 
+Download source files and dependencies:
+`git clone --recurse-submodules https://github.com/ps2homebrew/pfsshell.git`
+
 Create build folder and build object files:  
-`meson setup build`
+```
+cd build
+meson setup build
+```
 
 Also build pfsfuse or other features:  
 `meson setup -Denable_<FEATURE> build`  
